@@ -1,0 +1,3 @@
+export default function About() {
+    return <h1>I’m a Full Stack Developer based in Cairo. I enjoy building dynamic, creative products from start to finish. I love building apps and websites with a meaning. Transforming complex ideas into simple, beautiful and functional interfaces is my thing. I specialise in building applications and websites with advanced features that require specific solutions. I've had the opportunity to work on a range of exciting projects with many different talented teams, and I'm always up for new challenges!</h1>;
+  }

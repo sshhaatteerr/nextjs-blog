@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>As a Full Stack Developer, I have extensive experience in both front-end and back-end technologies, with a focus on creating user-friendly web solutions. My eagerness to solve complicated problems and commitment to lifelong learning enable me to stay current in the ever-changing software development market. Prioritising collaboration and open communication, I look forward to meeting with other specialists, sharing insights, and discovering new opportunities. Please contact me if you want to discuss potential initiatives or just make a connection.</p>
+        <p>I’m a Full Stack Developer based in Cairo. I enjoy building dynamic, creative products from start to finish. I love building apps and websites with a meaning. Transforming complex ideas into simple, beautiful and functional interfaces is my thing. I specialise in building applications and websites with advanced features that require specific solutions. I've had the opportunity to work on a range of exciting projects with many different talented teams, and I'm always up for new challenges!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
