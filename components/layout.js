@@ -40,28 +40,26 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
+                src="/images/about.jpg"
+                height={1100}
+                width={1100}
                 alt=""
               />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
+            <p>
+            </p>
           </>
         )}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+      {(
+        <div>
+          <Link href="https://github.com/sshhaatteerr" target="_blank">Github</Link>
+          <br/>
+          <Link href="https://www.linkedin.com/in/abdelrahmanalshater/" target="_blank">Linkedin</Link>
+          <br/>
+          <Link href="https://github.com/sshhaatteerr" target="_blank">CV</Link>
         </div>
       )}
     </div>
